@@ -1,0 +1,11 @@
+\appendix
+\chapter{Фрагмент програмної реалізації}
+\begin{lstlisting}[language=Python,basicstyle=\ttfamily\small,frame=single]
+base_array = create_composite(compos_list[0])
+base_mask = create_mask(compos_list[0])
+base_defects = dilation(base_mask == [2, 3, 8, 9])
+for i in compos_list:
+    new_array = create_composite(compos_list[i])
+    base_array = where(base_defects, new_array, base_array)
+median(base_array)
+\end{lstlisting}
