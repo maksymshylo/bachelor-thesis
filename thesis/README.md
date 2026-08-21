@@ -1,6 +1,6 @@
 # Bachelor Thesis
 
-This directory contains the source files for the master's thesis.
+This directory contains the source files for the bachelor's thesis.
 
 ## Structure
 
