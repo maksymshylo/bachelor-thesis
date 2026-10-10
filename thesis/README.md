@@ -2,7 +2,7 @@
 
 This directory contains the source files for the bachelor's thesis.
 
-## Structure
+## Thesis structure
 
 - `index.tex` - main document file;
 - `config.tex` - document configuration;
@@ -12,7 +12,7 @@ This directory contains the source files for the bachelor's thesis.
 
 ## Build
 
-Build the shared [`latex-dstu` image](https://github.com/maksymshylo/latex-dstu/blob/master/docker/README.md) first.
+Build the shared [`latex-dstu` docker image](https://github.com/maksymshylo/latex-dstu/blob/master/docker/README.md) first.
 Then run the following command from this directory:
 
 Fast build without bibliography:
